@@ -23,7 +23,6 @@ def is_ferial_day(day: str, month: str, year: str) -> bool:
         if month_number is None:
             return True
 
-        print(year, month, day)
         date = datetime(int(year), month_number, int(day))
         date_str = date.strftime("%d-%m")
 
