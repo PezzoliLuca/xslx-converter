@@ -1,9 +1,5 @@
-import openpyxl
 from openpyxl import load_workbook
 from utils import *
-from openpyxl.utils import get_column_letter
-from copy import copy
-import string
 
 def populate_h2020(template_file_wb, output_file, amm_note_prog):
     try:

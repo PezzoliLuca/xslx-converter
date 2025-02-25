@@ -1,5 +1,3 @@
-import openpyxl
-from datetime import datetime
 from openpyxl.styles import PatternFill
 from datetime import datetime
 from openpyxl.utils import get_column_letter
