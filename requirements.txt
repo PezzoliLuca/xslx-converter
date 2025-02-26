@@ -1,2 +1,0 @@
-openpyxl
-PySimpleGUI==5.0.0
